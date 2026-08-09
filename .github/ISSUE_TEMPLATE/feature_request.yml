@@ -1,0 +1,40 @@
+name: Feature request
+description: Propose a concrete capability tied to a real user problem.
+title: "[Feature]: "
+labels: []
+assignees: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the workflow or limitation before proposing an implementation.
+      placeholder: When I ..., I cannot ..., which causes ...
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: State what a successful user-visible result would look like.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and scope
+      description: Note workarounds you tried, related tools, and behavior that does not need to be included.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Examples or evidence
+      description: Add a small input/output example, link, screenshot, or frequency estimate if available.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing Issues and pull requests for a similar request.
+          required: true
+        - label: I described the user problem separately from my preferred implementation.
+          required: true

@@ -1,0 +1,62 @@
+name: Bug report
+description: Report reproducible behavior that differs from the documented or expected result.
+title: "[Bug]: "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to make the problem reproducible. Do not include secrets, private data, or undisclosed security vulnerabilities here.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and why it is a problem.
+      placeholder: I expected ..., but observed ...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Give the smallest input, repository, command, or sequence that reproduces the issue.
+      placeholder: |
+        1. Install ...
+        2. Run ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Include the package or release version, commit SHA, or hosted URL.
+      placeholder: v1.2.3 or abc1234
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include the operating system, runtime version, installation method, browser or terminal, and relevant hardware.
+      placeholder: Windows 11, Python 3.13, installed from PyPI
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs or additional evidence
+      description: Paste the shortest useful log or attach a screenshot. Redact tokens, paths, personal data, and device identifiers.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing Issues and pull requests for the same problem.
+          required: true
+        - label: I removed secrets, private data, and unrelated logs.
+          required: true
+        - label: This is not an undisclosed security vulnerability.
+          required: true
