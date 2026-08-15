@@ -1,7 +1,7 @@
 # Account-wide GitHub community defaults
 
-This special public repository holds the default contribution, support,
-security, issue, and pull-request guidance for repositories owned by
+This special public repository holds the default conduct, contribution,
+support, security, issue, and pull-request guidance for repositories owned by
 [CAOShurong](https://github.com/CAOShurong).
 
 GitHub applies a file from here only when a repository does not provide its own
