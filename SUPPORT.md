@@ -13,5 +13,6 @@ These open-source projects do not include a guaranteed response time or
 private consulting support. A clear reproduction and a small test case make a
 response much more likely.
 
-Security vulnerabilities must not be disclosed in public Issues. Follow
-[SECURITY.md](SECURITY.md) instead.
+Security vulnerabilities must not be disclosed in public Issues. Follow the
+target repository's `SECURITY.md` or Security tab. When a repository uses this
+account-wide default, see the [account-wide SECURITY.md](https://github.com/CAOShurong/.github/blob/main/SECURITY.md).

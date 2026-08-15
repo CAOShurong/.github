@@ -43,4 +43,5 @@ demos are useful when they are labelled as such. If an important check could
 not be run, say what was not verified and why.
 
 For a suspected security vulnerability, do not open a public issue. Follow
-the instructions in [SECURITY.md](SECURITY.md).
+the target repository's `SECURITY.md` or Security tab. When a repository uses
+this account-wide default, see the [account-wide SECURITY.md](https://github.com/CAOShurong/.github/blob/main/SECURITY.md).
